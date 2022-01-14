@@ -2,16 +2,16 @@ repositories:
   ar3_ros:
     type: git
     url: git@github.com:RIF-Robotics/ar3_ros.git
-    version: main
+    version: c1f07e672298f8f694ce5b97c690e99ad42c7987
   control_msgs:
     type: git
     url: git@github.com:ros-controls/control_msgs.git
-    version: galactic-devel
+    version: a555c37f1a3536bb452ea555c58fdd9344d87614
   ros2_control:
     type: git
     url: git@github.com:ros-controls/ros2_control.git
-    version: master
+    version: 407bbd1066dae25f6da8e3422dfa1a10118c791f
   ros2_controllers:
     type: git
     url: git@github.com:ros-controls/ros2_controllers.git
-    version: master
+    version: d5d24d90615844f04a59a187732adec3aa4efae0
