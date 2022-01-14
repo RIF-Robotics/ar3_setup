@@ -1,0 +1,5 @@
+repositories:
+  ar3_ros:
+    type: git
+    url: git@github.com:RIF-Robotics/ar3_ros.git
+    version: main
