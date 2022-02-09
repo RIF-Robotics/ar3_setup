@@ -18,24 +18,6 @@ RUN adduser --disabled-password --gecos '' $USERNAME \
     && adduser $USERNAME dialout \
     && echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-## Build and install librealsense
-#RUN mkdir -p /repos/3rd-party \
-#    && cd /repos/3rd-party \
-#    && git clone https://github.com/IntelRealSense/librealsense.git \
-#    && mkdir -p ./librealsense/build \
-#    && cd librealsense/build \
-#    && cmake .. \
-#    && make -j4 \
-#    && make install
-#
-## librealsense dependencies?
-#RUN apt-get update \
-#    && apt-get install -y \
-#        libglfw3-dev \
-#        libgl1-mesa-dev \
-#        libglu1-mesa-dev \
-#    && rm -rf /var/lib/apt/lists/*
-
 USER $USERNAME
 
 RUN mkdir -p /home/$USERNAME/workspace/src
