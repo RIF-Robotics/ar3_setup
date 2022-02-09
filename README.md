@@ -41,7 +41,7 @@ Start Docker development environment and enter:
 
     $ cd ~/ros2/ar3_ws/ar3_setup
     $ docker-compose up -d dev-nvidia
-    $ docker exec -it ar3_galactic_nvidia /bin/bash
+    $ docker exec -it ar3_rolling_nvidia /bin/bash
 
 **NOTE**: You can open as many terminals as needed with the last command. Each
 command will drop you inside the same container.
@@ -56,7 +56,3 @@ don't do this unless you want to start fresh):
 
     $ cd ~/ros2/ar3_ws/ar3_setup
     $ docker-compose down
-
-## AR3 in Simulation (with a pre-built map)
-
-Coming soon
