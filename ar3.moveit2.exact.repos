@@ -1,8 +1,12 @@
 repositories:
+  ar3_moveit2_config:
+    type: git
+    url: git@github.com:RIF-Robotics/ar3_moveit2_config.git
+    version: f6122eb77e635acfc15a8c11b6330386f43b3813
   ar3_ros:
     type: git
     url: git@github.com:RIF-Robotics/ar3_ros.git
-    version: 5f6b482f311ff97ee761a63659a981aed1e91804
+    version: 381b5e61ddeaccb75022709013aa38ad9d16caa3
   control_msgs:
     type: git
     url: git@github.com:ros-controls/control_msgs.git
