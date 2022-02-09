@@ -1,0 +1,77 @@
+repositories:
+  ar3_ros:
+    type: git
+    url: git@github.com:RIF-Robotics/ar3_ros.git
+    version: 5f6b482f311ff97ee761a63659a981aed1e91804
+  control_msgs:
+    type: git
+    url: git@github.com:ros-controls/control_msgs.git
+    version: a555c37f1a3536bb452ea555c58fdd9344d87614
+  control_toolbox:
+    type: git
+    url: git@github.com:ros-controls/control_toolbox.git
+    version: d7462e982e40bfdebddbcff8849c611caf8c8422
+  gazebo_ros2_control:
+    type: git
+    url: git@github.com:ros-simulation/gazebo_ros2_control.git
+    version: 0.0.7
+  gazebo_ros_pkgs:
+    type: git
+    url: git@github.com:ros-simulation/gazebo_ros_pkgs.git
+    version: d13d9db388aa115cf89d8210e3a1124a6e6f8916
+  geometric_shapes:
+    type: git
+    url: https://github.com/ros-planning/geometric_shapes
+    version: 6b37f6885f1a4d264087b978a7965fb2c8d72c3b
+  launch_param_builder:
+    type: git
+    url: https://github.com/PickNikRobotics/launch_param_builder
+    version: 0.1.0
+  moveit2:
+    type: git
+    url: git@github.com:ros-planning/moveit2.git
+    version: 2.3.4
+  moveit2_tutorials:
+    type: git
+    url: https://github.com/ros-planning/moveit2_tutorials.git
+    version: 44d282dd7d6703791f845563b0b4a2269c6a3976
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs
+    version: 2.2.0
+  moveit_resources:
+    type: git
+    url: https://github.com/ros-planning/moveit_resources
+    version: 4ed86c1b8b6712db3ff196167f56309dec3b0cd6
+  moveit_visual_tools:
+    type: git
+    url: https://github.com/ros-planning/moveit_visual_tools
+    version: 5b98097292dad4bafe63fa9b5ed542e1ec0f25c9
+  object_recognition_msgs:
+    type: git
+    url: git@github.com:wg-perception/object_recognition_msgs.git
+    version: 2.0.0
+  octomap_msgs:
+    type: git
+    url: git@github.com:OctoMap/octomap_msgs.git
+    version: 2.0.0
+  ros2_control:
+    type: git
+    url: git@github.com:ros-controls/ros2_control.git
+    version: 2.1.0
+  ros2_control_demos:
+    type: git
+    url: git@github.com:ros-controls/ros2_control_demos.git
+    version: 1db6634a0ad193b130cc07d66f5baee894658bf0
+  ros2_controllers:
+    type: git
+    url: git@github.com:ros-controls/ros2_controllers.git
+    version: 1.3.0
+  rviz_visual_tools:
+    type: git
+    url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+    version: 4.1.2
+  warehouse_ros:
+    type: git
+    url: git@github.com:ros-planning/warehouse_ros.git
+    version: 68503565e0bc51f2ee3ccd414e89bd2ddc6fa432
